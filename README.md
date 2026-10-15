@@ -1,4 +1,4 @@
-﻿# AegisDesk â€” LLM Security Assessment Lab
+﻿# AegisDesk ” LLM Security Assessment Lab
 ### Local RAG red-team testing with FastAPI, Ollama, and Qwen 2.5 7B
 
 **Project type:** Cybersecurity engineering / LLM application security
