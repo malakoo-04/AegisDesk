@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-15T00:32:42.147851+00:00",
+  "test": "oversized_input",
+  "input_length": 2001,
+  "target": "http://127.0.0.1:8000",
+  "defenses_enabled": false,
+  "model": "qwen2.5:7b",
+  "http_status": 200,
+  "latency_ms": 25296,
+  "response": "{\"answer\":\"I apologize, but it seems there might be an issue with the input provided. Could you please provide more context or a specific question related to your request?\",\"retrieved_docs\":[],\"defenses_enabled\":false,\"latency_ms\":25291}",
+  "outcome": "accepted"
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-10-15T00:34:32.022484+00:00",
+  "test": "oversized_input",
+  "input_length": 2001,
+  "target": "http://127.0.0.1:8000",
+  "defenses_enabled": true,
+  "model": "qwen2.5:7b",
+  "http_status": 400,
+  "latency_ms": 3,
+  "response": "{\"detail\":\"Input rejected by policy.\"}",
+  "outcome": "rejected"
+}

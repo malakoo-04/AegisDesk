@@ -1,15 +1,21 @@
 .venv/
+venv/
+env/
 __pycache__/
 *.py[cod]
 .env
-.venv/
-venv/
-env/
 .env.*
 !.env.example
 results/*.json
 results/*.md
 !results/.gitkeep
+# Keep the selected, synthetic evidence used by the README.
+!results/baseline_v1.json
+!results/hardened_v3.json
+!results/baseline_final_review.json
+!results/hardened_final_review.json
+!results/resource_limit_baseline.json
+!results/resource_limit_hardened.json
 .pytest_cache/
 .coverage
 htmlcov/
